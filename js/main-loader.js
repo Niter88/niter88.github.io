@@ -1,6 +1,6 @@
 function loadMainStructure() {
     $.ajax({
-        url: 'loaders/main-content.html',
+        url: '/loaders/main-content.html',
         type: 'GET',
         dataType: 'html',
         success: function (data) {
