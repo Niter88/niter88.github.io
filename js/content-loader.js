@@ -7,7 +7,7 @@ function loadNavigationBar() {
       type: 'GET',
       dataType: 'html',
       success: function (data) {
-        $('#navigation-bar-container').html(data);
+          $('#navigation-bar-container').replaceWith(data);
       },
       error: function () {
         console.error('Error loading navigation bar content.');
@@ -22,7 +22,7 @@ function loadNavigationBar() {
       type: 'GET',
       dataType: 'html',
       success: function (data) {
-        $('#footer-container').html(data);
+          $('#footer-container').replaceWith(data);
       },
       error: function () {
         console.error('Error loading footer content.');
@@ -38,7 +38,7 @@ function loadNavigationBar() {
       type: 'GET',
       dataType: 'html',
       success: function (data) {
-        $('#main-content-container').html(data);
+          $('#main-content-container').replaceWith(data);
       },
       error: function () {
         console.error('Error loading main content.');

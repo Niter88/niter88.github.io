@@ -4,7 +4,7 @@ function loadMainStructure() {
         type: 'GET',
         dataType: 'html',
         success: function (data) {
-            $('#main-loader').html(data);
+            $('#main-loader').replaceWith(data);
         },
         error: function () {
             console.error('Error loading footer content.');
