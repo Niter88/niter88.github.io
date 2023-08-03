@@ -32,10 +32,9 @@ function loadNavigationBar() {
   
   // Function to load the main content
   function loadMainContent() {
-    // You can modify the file name as needed or pass it as a parameter to this function.
-    var fileName = 'main-content.html';
+    // Use the constant variable defined in the index.html
     $.ajax({
-      url: fileName,
+      url: MAIN_CONTENT_FILE,
       type: 'GET',
       dataType: 'html',
       success: function (data) {
