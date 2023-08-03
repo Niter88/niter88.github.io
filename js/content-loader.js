@@ -38,7 +38,7 @@ function loadMainContent() {
         type: 'GET',
         dataType: 'html',
         success: function (data) {
-            $('#main-content-container').replaceWith(data);
+            $('#main-content-container').html(data);
         },
         error: function () {
             console.error('Error loading main content.');

@@ -1,0 +1,35 @@
+/* 
+    Sticky footer styles
+ */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+footer {
+    padding-left: 16px;
+    padding-right: 16px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 44px;
+}
+/*
+    end Sticky footer styles
+*/
+
+.main-container {
+    margin-top: 64px;
+    padding: 16px;
+}
+
+.navbar {
+    padding-left: 32px;
+    padding-right: 32px;
+}
