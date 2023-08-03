@@ -3,7 +3,7 @@
 // Function to load the navigation bar content
 function loadNavigationBar() {
     $.ajax({
-        url: 'navigation-bar.html',
+        url: 'loaders/navigation-bar.html',
         type: 'GET',
         dataType: 'html',
         success: function (data) {
@@ -18,7 +18,7 @@ function loadNavigationBar() {
 // Function to load the footer content
 function loadFooter() {
     $.ajax({
-        url: 'footer-container.html',
+        url: 'loaders/footer-container.html',
         type: 'GET',
         dataType: 'html',
         success: function (data) {
