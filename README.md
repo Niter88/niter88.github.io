@@ -10,3 +10,4 @@ http://localhost:8080
 
 
 The "public" folder was renamed to "pub" in order to avoid an http-server bug on which it tried to open the ./public dir instead of ./
+more info on https://www.npmjs.com/package/http-server
