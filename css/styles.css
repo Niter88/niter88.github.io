@@ -1,4 +1,12 @@
 /* 
+    variables
+*/
+:root{
+    --nt-bg-primary: #01010e;
+    --nt-bg-secondary: #1c1c29;
+}
+
+/* 
     Sticky footer styles
  */
 html {
@@ -21,7 +29,7 @@ footer {
     height: 44px;
 }
 /*
-    end Sticky footer styles
+    Main stuff
 */
 
 .main-container {
@@ -33,3 +41,12 @@ footer {
     padding-left: 32px;
     padding-right: 32px;
 }
+
+.nt-bg-primary{
+    background-color: var(--nt-bg-primary);
+}
+
+.nt-bg-secondary{
+    background-color: var(--nt-bg-secondary);
+}
+
