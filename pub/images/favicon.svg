@@ -1,0 +1,8 @@
+<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+        <style>
+            .svg-heavy-text { font: bold 50px sans-serif; fill:white; }
+            .svg-bg-primary { fill: #06061b;}
+        </style>
+        <rect x="0" y="0" width="50" height="50" rx="10" class="svg-bg-primary" />
+        <text x="8" y="44" class="svg-heavy-text">N</text>
+    </svg>
