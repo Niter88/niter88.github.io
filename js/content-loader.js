@@ -68,14 +68,14 @@ function setSiteLang(lang) {
 }
 
 function applySiteLang(lang) {
-    // Toggle visibility of elements with classes lang-en and langpt-br
+    // Toggle visibility of elements with classes lang-en and lang-pt-BR
     if (lang === 'pt-BR') {
-        $('.langpt-br').show();
+        $('.lang-pt-BR').show();
         $('.lang-en').hide();
         $('html').attr('lang', 'pt-BR');
     } else {
         $('.lang-en').show();
-        $('.langpt-br').hide();
+        $('.lang-pt-BR').hide();
         $('html').attr('lang', 'en');
     }
 
