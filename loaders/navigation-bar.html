@@ -20,12 +20,8 @@
                     <a class="dropdown-item" href="https://beta.character.ai/chat?char=gCtNiChPipXQYcfZn65FNNMumn5MKCbYa-yt6MXt1oM" target="_blank">
                         Your depression support AI  <i class="bi bi-box-arrow-up-right"></i>
                     </a>
-                    <!-- <a class="dropdown-item" href="#">
-                        Another action  <i class="bi bi-box-arrow-up-right"></i>
-                    </a> -->
                 </div>
             </li>
-
 
             <!-- this one at the end -->
             <li class="nav-item active">
@@ -33,5 +29,17 @@
             </li>
         </ul>
 
+        <!-- New language dropdown aligned to the end -->
+        <ul class="navbar-nav" style="margin-left: auto;">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="langDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span id="lang-current">🇺🇸 English</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
+                    <button class="dropdown-item" type="button" onclick="setSiteLang('en')">🇺🇸 English</button>
+                    <button class="dropdown-item" type="button" onclick="setSiteLang('pt-BR')">🇧🇷 Português (BR)</button>
+                </div>
+            </li>
+        </ul>
     </div>
 </nav>
